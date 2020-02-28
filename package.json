@@ -1,0 +1,36 @@
+{
+  "name": "stock-management-system-bbd",
+  "version": "1.0.0",
+  "description": "Stock management app for web project in bbd",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mjbotes/Stock-Management-System-BBD.git"
+  },
+  "keywords": [
+    "stock"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mjbotes/Stock-Management-System-BBD/issues"
+  },
+  "homepage": "https://github.com/mjbotes/Stock-Management-System-BBD#readme",
+  "dependencies": {
+    "bcrypt": "^4.0.0",
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "concurrently": "^5.1.0",
+    "nodemon": "^2.0.2"
+  }
+}
