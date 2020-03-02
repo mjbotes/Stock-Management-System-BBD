@@ -1,10 +1,10 @@
 import React from 'react';
-import Home from './Home.js';
+import test from './test';
 import './Style.scss';
 
 function App() {
   return (
-    Home()
+    test()
   );
 }
 

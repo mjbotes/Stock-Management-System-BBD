@@ -4,10 +4,15 @@ import './Style.scss';
 
 function Home(Products) {
     var i = 0;
-    var items = [];
+    var table = [];
+    table.push(<tr>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Stock</th>
+            </tr>);
     while (Products[0][i] > 0)
     {
-        items.push(<tr>
+        table.push(<tr>
                 <td>{Products[1][i]}</td>
                 <td>{Products[2][i]}</td>
                 <td>{Products[3][i]}</td>
@@ -16,13 +21,8 @@ function Home(Products) {
     }
     return (
         <table>
-            <tr>
-                <th>Name</th>
-                <th>Price</th>
-                <th>Stock</th>
-            </tr>
             {items}
-        </table>
+        </table> 
     );
 }
 
