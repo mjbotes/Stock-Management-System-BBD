@@ -21,7 +21,7 @@ function Home(Products) {
     }
     return (
         <table>
-            {items}
+            {table}
         </table> 
     );
 }
